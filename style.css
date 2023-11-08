@@ -1,0 +1,169 @@
+.popup{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    background-color: #ff7f50;
+    padding: 50px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1em 1em;
+    text-align: center;
+}
+.bdy{
+    background-color: wheat;
+    justify-content: center;
+    display: flex;
+}
+.reg{
+    background-color: #ff7f50;
+    border-radius: 5em 5em;
+    padding: 50px 50px;
+}
+.required::after{
+    content: '*';
+    color: red;
+}
+.topnav, .bttmnav{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-position: right;
+    padding: 10px 10px;
+}
+.topnav a, .bttmnav a{
+    float: left;
+    color: white;    
+    justify-content: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.topnav a:hover, .bttmnav a:hover{
+    background-color: bisque;
+    color: blueviolet;
+}
+footer,.dash{
+    background-color: rgb(183, 0, 255);
+    color: white;
+    padding-bottom: 10px;
+    border-radius: 1em 1em;
+    text-align:center;
+    font-size: large;
+}
+h1,h2,h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-transform: uppercase;
+}
+.required::after{
+    content: '*';
+    color: red;
+}
+input{
+    border-radius: 0 2em;
+    padding: 0 10px;
+    width: 100%;
+    border: none;
+    line-height: 2em;
+    margin-bottom: 20px;
+
+}
+textarea{
+    border-radius: 0 4em;
+    padding: 0 10px;
+    width: 100%;
+    border: none;
+    line-height: 2em;
+    margin-bottom: 20px;
+}
+.closebtn{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.profile{
+    background-color: hsl(140, 70%, 46%);
+    text-transform: uppercase;
+    border-radius: 0.5em 0.5em;
+    display: flex;
+    padding: 10px 10px;
+    text-align: justify;
+    justify-content: center;
+}
+.services{
+    color: tomato;
+    font-size: 32px;
+    font-style: italic;
+}
+button{
+    background-color: hsl(140, 70%, 46%);
+    padding: 5px 5px;
+    border-radius: 0.5em 0.5em;
+    color: white;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: white;
+    color: blueviolet;
+}
+.sub,.submit{
+    background-color: hsl(140, 70%, 46%);
+}
+.sub:hover,.submit:hover{
+    color: blue;
+    background-color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+    columns: 2;
+    column-gap: 32px;
+}
+.sidenav{
+    border-radius: 0.5em 0.5em;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    background-color: hsl(140, 70%, 46%);
+    overflow-x:hidden ;
+    transition: 0.5s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.sidenav a{
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color: blueviolet;
+    background-color: bisque;
+}
+.sidenav .closebtn{
+    position: absolute;
+    font-size: 36px;
+}
+@media  screen and (max-heigth:45px) {
+    .sidenav{
+        padding-top: 15px;
+    }
+    .sidenav a{
+        font-size: 18px;
+    }
+}
+hr{
+    background-color: coral;
+    display: block;
+    width: 80%;
+    height: 1px;
+}
+.p{
+    text-align: center;
+    font-size: small;
+}

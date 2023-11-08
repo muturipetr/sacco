@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sts peter & paul group</title>
+        <meta name="viewport" content="width=device-width, initial-scazle=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="shortcut icon" href="images/WhatsApp Image 2023-10-06 at 19.27.28.jpg3.jpg" type="image/x-icon">
+    </head>
+    <body style="background-color: wheat;">
+        <div class="topnav" style="background-color:springgreen;">
+            <img src="images/cropped-sts_peter_and_paul_logo_draft2-removebg-preview.png" style="width: 110px; height: 110px;"><h1>STS PETER & PAUL GROUP EASY BANKING SYSTEM</h1>
+            <img src="images/WhatsApp Image 2023-10-06 at 19.27.28.jpg3.jpg" style="width: 110px; height: 110px;">
+        </div>
+        <div class="services">
+            <p>To access our banking services please login into your account or SignUp <button id="show-popup">Get Started</button></p>
+        </div>
+            <div id="popup-form" class="popup">
+                <form action="validate.php" method="post">           
+                    <a href="javascript:void(0)" class="closebtn" onclick="closenav()" id="close-popup">&times;</a>
+                    <img src="images/DefaultAccountTile.png" style="width: 110px; height: 110px;">
+                    <h2>Member LogIn</h2>
+                    <p>Please enter your ID and PIN</p>
+                    <label class="required" id="UserID">UserID</label><br>
+                    <input type="text" placeholder="national ID No" required minlength="8" maxlength="8"><br>
+                    <label class="required">PIN</label><br>
+                    <input type="password" placeholder="password" required minlength="8" maxlength="8"><br><br>
+                    <div>
+                        <input class="submit" type="submit" value="LogIn">
+                        <input class="sub" type="submit" value="SignUp" onclick="window.location.href='signup.html'">
+                    </div>
+                    <p>&copy;All Rigthts Reserved</p>
+                </form>
+            </div>
+            <script src="script.js"></script>
+            <section>
+                <div class="vm">
+                    <img src="images/WhatsApp Image 2023-10-06 at 19.27.28.jpg2.jpg" alt="" srcset="">
+                </div>
+                <div class="mp">
+                    <img src="images/WhatsApp Image 2023-10-06 at 19.27.28.jpg1.jpg" alt="">
+                </div>
+            </section><br>
+    </body>
+    <footer>
+        <div class="foot">
+            <h3>contact us</h3>
+            <p>We are Located at Sts Peter and Paul catholic church, opposite Kiambu Golf Club.</p>
+            <div class="topnav">
+                <address>P.O BOX 08-00900 Kiambu<br>Along Kiambu - Kamiti Rd</address>
+                <a href="tel:+254715109638">&phone; +254715109638</a><br>
+                <a href="mailto:stspeterandpaulkiambu@gmail.com">&#9993 stspeterandpaulkiambu@gmail.com</a><br>
+                <a href="https://web.facebook.com/profile.php?id=100080760517262"><i class="fab fa-facebook"></i>facebook</a><br>
+            </div>
+        </div>
+    </footer>
+</html>
